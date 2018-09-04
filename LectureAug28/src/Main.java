@@ -7,7 +7,8 @@ public class Main {
 		CaesarCypher cypher = new CaesarCypher(4);
 		name = cypher.encode(name);
 		System.out.println(name);
-		
+		name = cypher.decode(name);
+		System.out.println(name);
 	}
 	
 }
